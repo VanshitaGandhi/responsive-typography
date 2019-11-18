@@ -69,3 +69,81 @@ ol {
   margin-top: 0;
   margin-bottom: 1.3rem;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  article h1 {
+    padding-top: 1.4rem;
+  }
+
+  article header+p {
+    padding-top: 1.4rem;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  blockquote {
+    margin: 0 0 1.3rem;
+  }
+
+  ol {
+    padding-left: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+  }
+
+ }
+
+@media only screen and (min-width: 60em) {
+
+ html {
+   font-size: 120%;
+   line-height: 1.5;
+ }
+
+ }
+ html {
+   font-size: 110%;
+   line-height: 1.5;
+ }
+
+ article h1 {
+   padding-top: 1.5rem;
+ }
+
+ article header+p {
+   padding-top: 1.5rem;
+ }
+
+ h1,
+ p {
+   margin: 0 0 1.5rem;
+ }
+
+ blockquote {
+   margin: 0 auto;
+ }
+
+ ol {
+   padding-left: 1.5rem;
+   margin-top: 0;
+   margin-bottom: 1.5rem;
+ }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
